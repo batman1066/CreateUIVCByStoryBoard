@@ -7,9 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController2.h"
 
 @interface AppDelegate ()
 
+@property (nonatomic,strong) ViewController2 *viewController2;
 @end
 
 @implementation AppDelegate
@@ -17,6 +19,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    self.viewController2 = [storyBoard instantiateViewControllerWithIdentifier:@"SecondVC"];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController=self.viewController2;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
