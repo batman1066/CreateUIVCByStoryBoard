@@ -15,6 +15,7 @@
 		8CD2D65B1DE1DDF900883D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD2D6591DE1DDF900883D60 /* LaunchScreen.storyboard */; };
 		8CD2D6661DE1DDF900883D60 /* CreateUIVCByStoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2D6651DE1DDF900883D60 /* CreateUIVCByStoryBoardTests.m */; };
 		8CD2D6711DE1DDF900883D60 /* CreateUIVCByStoryBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2D6701DE1DDF900883D60 /* CreateUIVCByStoryBoardUITests.m */; };
+		8CD2D6801DE1E16900883D60 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2D67F1DE1E16900883D60 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8CD2D66C1DE1DDF900883D60 /* CreateUIVCByStoryBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateUIVCByStoryBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD2D6701DE1DDF900883D60 /* CreateUIVCByStoryBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateUIVCByStoryBoardUITests.m; sourceTree = "<group>"; };
 		8CD2D6721DE1DDF900883D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD2D67E1DE1E16900883D60 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		8CD2D67F1DE1E16900883D60 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				8CD2D6591DE1DDF900883D60 /* LaunchScreen.storyboard */,
 				8CD2D65C1DE1DDF900883D60 /* Info.plist */,
 				8CD2D64B1DE1DDF900883D60 /* Supporting Files */,
+				8CD2D67E1DE1E16900883D60 /* ViewController2.h */,
+				8CD2D67F1DE1E16900883D60 /* ViewController2.m */,
 			);
 			path = CreateUIVCByStoryBoard;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CD2D6531DE1DDF900883D60 /* ViewController.m in Sources */,
+				8CD2D6801DE1E16900883D60 /* ViewController2.m in Sources */,
 				8CD2D6501DE1DDF900883D60 /* AppDelegate.m in Sources */,
 				8CD2D64D1DE1DDF900883D60 /* main.m in Sources */,
 			);
